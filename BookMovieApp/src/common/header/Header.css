@@ -1,0 +1,71 @@
+header {
+    height: 36px;
+    background-color: #222;
+    padding: 8px 32px 8px 16px;
+    display: flex;
+    flex-direction: row;
+}
+header .left, header .right {
+    width: 50%;
+}
+header .right {
+    justify-content: right;
+    display: flex;
+}
+
+.right > button:not(:last-child){
+    margin-right: 5px;
+}
+
+img.spin {
+    background-color: #ff7f7f;
+    height: 35px;
+}
+
+@keyframes spinning {
+    from { transform: rotateY(0deg) }
+    to { transform: rotateY(360deg) }
+}
+
+.spin {
+    animation-name: spinning;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.login-container, .register-container {
+    width: 60%;
+    margin: 0 20%;
+    margin-top: 1rem;
+}
+
+.register-container {
+    margin-bottom: 1rem;
+}
+
+.login-button, .register-button {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.login-container, .register-form{
+    text-align: center;
+}
+
+.MuiTab-root.Mui-selected {
+    color: red;
+}
+
+.red {
+    color: red;
+}
+
+.error-message {
+    margin-top: 1rem;
+}
+
+.MuiTabs-root {
+    width: 100%;
+}

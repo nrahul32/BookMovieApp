@@ -1,0 +1,28 @@
+.movie-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 24px;
+}
+
+.movie-detail .left {
+    width: 20%
+}
+
+.movie-detail .middle {
+    width: 60%
+}
+
+.movie-detail .right {
+    width: 20%
+}
+
+.star {
+    color: black;
+}
+
+.back-button {
+    margin: 8px 0 0 24px;
+    height: 24px;
+    cursor: pointer;
+}

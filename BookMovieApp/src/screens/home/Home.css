@@ -1,0 +1,44 @@
+.upcoming-title {
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.flex-container .left {
+    width: 76%;
+    margin: 16px;
+}
+
+.flex-container .right {
+    width: 24%;
+    margin: 16px;
+}
+
+.upcomingGridList {
+    flex-wrap: nowrap !important;
+    transform: translateZ(0);
+}
+
+.releasedGridList {
+    flex-wrap: wrap;
+    transform: translateZ(0);
+}
+
+.released-poster {
+    cursor: pointer;
+}
+
+.search-button {
+    width: 100%;
+}
+
+.search-field {
+    margin: 1rem;
+}
